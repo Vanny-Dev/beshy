@@ -10,13 +10,13 @@ body{
 }
 .beshy_container{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 h1{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
