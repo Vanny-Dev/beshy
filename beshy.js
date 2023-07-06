@@ -11,8 +11,8 @@ function beshyKoh() {
   }
 
   function beshyPlay() {
-    var beshytxtaudio = document.getElementById("beshy_inputTxt").value;
-    var beshySpeak = new SpeechSynthesisUtterance(beshytxtaudio);
-    beshySpeak.lang = "es-ES";
-    window.speechSynthesis.speak(beshySpeak);
+    //var beshytxtaudio = document.getElementById("beshy_inputTxt").value;
+  
+    var audio = new Audio("audio.mp3");
+    audio.play();
   }
