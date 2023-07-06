@@ -48,7 +48,13 @@ button{
     overflow: visible;
 }
 @media screen and (max-width: 760px) {
-    
+
+    h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
     input{
         width: 60%;
         height: 35px;
@@ -83,10 +89,16 @@ button{
     
     .beshy_container{
         position: absolute;
-        top: 30%;
+        top: 32%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
+    h1{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
     input{
         width: 300px;
         height: 35px;
@@ -105,13 +117,13 @@ button{
         border-radius: 10%;
         border: none;
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%,100%);
     }
     .beshy_output p {
         position: absolute;
-        top: 60%;
+        top: 62%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 80vw;
