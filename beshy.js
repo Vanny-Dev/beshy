@@ -9,3 +9,9 @@ function beshyKoh() {
     
     document.getElementById("beshy_outputTxt").innerText = beshy_output;
   }
+
+  function beshyPlay() {
+    var beshytxtaudio = document.getElementById("beshy_inputTxt").value;
+    var beshySpeak = new SpeechSynthesisUtterance(beshytxtaudio);
+    window.speechSynthesis.speak(beshySpeak);
+  }
