@@ -13,5 +13,6 @@ function beshyKoh() {
   function beshyPlay() {
     var beshytxtaudio = document.getElementById("beshy_inputTxt").value;
     var beshySpeak = new SpeechSynthesisUtterance(beshytxtaudio);
+    beshySpeak.lang = "es-ES";
     window.speechSynthesis.speak(beshySpeak);
   }
